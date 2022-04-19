@@ -16,15 +16,37 @@
     <section>
         <div class="container">
             <div class="row">
+                <div class="col-12">
+                    
+                </div>
+            </div>
+            <div class="row">
+                <h1 class="text-primary text-center mt-5">Sports Players</h1>
                 <div class="col-lg-6">
-                    <h2>left side</h2>
-                    <div class="input-group mb-3 w-100 text-center">
+                    <!-- <h2>left side</h2> -->
+                    <div class="input-group mb-3 w-100 text-center mt-5">
                         <input id="search-box" type="text" class="form-control" placeholder="Search Players">
                         <button class="btn btn-outline-secondary" type="button" onclick="allPlayers()">Search</button>
+                    </div>
+
+                    <div class="text-center">
+                        <img id="spinner" src="./image/loadingspinner.gif" alt="">
+                    </div>
+                      <div id="player-container" class="player-container">
+                        
                       </div>
                 </div>
-                <div class="col-lg-6">
-                    <h2>right side</h2>
+
+                <div class="col-lg-6 mt-5">
+                    <!-- <h2>right side</h2> -->
+                    <div class="image-container w-75">
+                        <img class="img-fluid" id="Female" src="./image/female-img.jpg" alt="female">
+
+                        <img class="img-fluid" id="Male" src="./image/male-img.jpg" alt="male">
+                    </div>
+                    <div id="details-container">
+                        
+                    </div>
                 </div>
             </div>
         </div>
